@@ -21,7 +21,7 @@ _There are two ways to import this plugin_
 _After importing the plugin script you just need to create an object of the `Dropdown` class and pass in the parameters._
   ```
   <script>
-        const d = new Dropdown(
+        new Dropdown(
             document.getElementById("selector"),
             [
                 { text: "India", key: "in" },
