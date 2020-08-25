@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form-group">
+        <div id="selector">Please select a country.</div>
+    </div>
+
+    <script src="dropdown.js"></script>
+    <script>
+        const d = new Dropdown(
+            document.getElementById("selector"),
+            [
+                { text: "Afghanistan", key: "af" },
+                { text: "Aland Islands", key: "ax" },
+                { text: "Albania", key: "al" },
+                { text: "Algeria", key: "az" },
+            ],
+        );
+    </script>
+</body>
+
+</html>
